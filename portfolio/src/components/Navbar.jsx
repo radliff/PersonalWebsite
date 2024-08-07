@@ -16,6 +16,9 @@ const Navbar = () => {
             <button className="bg-[#1DB954] hover:bg-black text-white font-bold py-2 px-4 rounded-full whitespace-nowrap">
                 Projects
             </button>
+            <button className="bg-[#1DB954] hover:bg-black text-white font-bold py-2 px-4 mx-5 rounded-full whitespace-nowrap">
+                Resume
+            </button>
         </ul>
     </div>
   )
