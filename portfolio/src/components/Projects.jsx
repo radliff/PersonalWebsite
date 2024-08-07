@@ -49,7 +49,7 @@ const Projects = () => {
               height: '300px' 
             }}
           >
-            <a href="https://github.com/your-repo" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/radliff/Minesweeper" target="_blank" rel="noopener noreferrer">
               <img 
                 src={playButton} 
                 alt="Play Button" 
