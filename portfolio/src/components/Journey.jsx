@@ -46,7 +46,7 @@ const Journey = () => {
           <span className="text-center">Date Started</span>
           <span className="text-center">Date Ended</span>
         </div>
-        <div className="grid grid-cols-5 text-lg text-slate-400 mt-5 gap-x-8 items-center">
+        <div className="grid grid-cols-5 text-lg text-slate-400 mt-5 gap-x-8 items-center transform transition-transform duration-200 hover:scale-105 hover:shadow-lg">
           <span>1</span>
           <div className="flex items-center">
             <img src={nsbeLogo} alt="NSBE Logo" className="w-20 h-20 object-cover mr-4" />
@@ -59,7 +59,7 @@ const Journey = () => {
           <div className="text-center">May 6, 2024</div>
           <div className="text-center">Present</div>
         </div>
-        <div className="grid grid-cols-5 text-lg text-slate-400 mt-5 gap-x-8 items-center">
+        <div className="grid grid-cols-5 text-lg text-slate-400 mt-5 gap-x-8 items-center transform transition-transform duration-200 hover:scale-105 hover:shadow-lg">
           <span>2</span>
           <div className="flex items-center">
             <img src={ufLogo} alt="UF Logo" className="w-20 h-20 object-cover mr-4" />
@@ -72,7 +72,7 @@ const Journey = () => {
           <div className="text-center">August 22, 2022</div>
           <div className="text-center">Present</div>
         </div>
-        <div className="grid grid-cols-5 text-lg text-slate-400 mt-5 gap-x-8 items-center">
+        <div className="grid grid-cols-5 text-lg text-slate-400 mt-5 gap-x-8 items-center transform transition-transform duration-200 hover:scale-105 hover:shadow-lg">
           <span>3</span>
           <div className="flex items-center">
             <img src={cmuLogo} alt="CMU logo" className="w-20 h-20 object-cover mr-4" />
@@ -85,7 +85,7 @@ const Journey = () => {
           <div className="text-center">May 28, 2023</div>
           <div className="text-center">July 21, 2023</div>
         </div>
-        <div className="grid grid-cols-5 text-lg text-slate-400 mt-5 gap-x-8 items-center">
+        <div className="grid grid-cols-5 text-lg text-slate-400 mt-5 gap-x-8 items-center transform transition-transform duration-200 hover:scale-105 hover:shadow-lg">
           <span>4</span>
           <div className="flex items-center">
             <img src={ukgLogo} alt="UKG logo" className="w-20 h-20 object-cover mr-4" />
