@@ -31,8 +31,8 @@ const Journey = () => {
           </div>
         </div>
         <div className="ml-10">
-          <div className="text-lg text-slate-400">Public Playlist</div>
-          <div className="text-5xl text-white font-bold">Journey</div>
+          <div className="text-lg text-slate-400 mt-36">Public Playlist</div>
+          <div className="text-6xl text-white font-bold mt-5">Journey</div>
           <div className="text-lg text-white font-bold mt-5">
             Radliff Jeantinor ⋅ <span className="text-sm text-slate-400">4 songs, 2 years 6 months</span>
           </div>
