@@ -6,7 +6,7 @@ import verifiedBadge from '../img/verifiedBadge.png'
 
 const AboutMe = () => {
   return (
-    <div className='w-full bg-cover bg-center relative' style={{ backgroundImage: `url(${bgPicRefined})`, backgroundPosition: 'left 39% bottom 60%', height: '32rem' }}>
+    <div className='w-full bg-cover bg-center relative' style={{ backgroundImage: `url(${bgPicRefined})`, backgroundPosition: 'left 40%', height: '32rem' }}>
       <div className='absolute inset-0 bg-black opacity-50'></div>
       <div className='relative z-10 flex justify-left items-center h-full'>
         <div className='relative px-10'>
@@ -22,7 +22,7 @@ const AboutMe = () => {
           <h1 className='text-white text-5xl font-bold text-left'>Radliff :)</h1>
         </div>
       </div>
-      <div className='absolute top-0 right-10 m-4 z-20 text-white font-bold text-xl max-w-md p-4 bg-opacity-75 bg-black'>
+      <div className='absolute top-0 right-10 m-4 z-20 text-white text-xl max-w-md p-4 bg-opacity-75 bg-black border-4 border-[#1DB954] rounded-lg'>
         <p>
           Hey there! I'm Radliff Jeantinor, a student with a passion for tech. <br />
           Welcome to my Spotify-themed corner of the web, where I mix my love for code with my favorite app. <br/>

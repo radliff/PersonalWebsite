@@ -25,7 +25,7 @@ const Projects = () => {
               height: '300px' 
             }}
           >
-            <a href='https://github.com/radliff/DSAFinal' target='_blank' rel='noopener noreferrer'>
+            <a href='https://github.com/radliff/PersonalWebsite' target='_blank' rel='noopener noreferrer'>
               <img 
                 src={playButton} 
                 alt="Play Button" 
@@ -61,7 +61,7 @@ const Projects = () => {
               height: '300px' 
             }}
           >
-            <a href='https://github.com/radliff/harmonyHub' target='_blank' rel='noopener noreferrer'>
+            <a href='https://github.com/radliff/DSAFinal' target='_blank' rel='noopener noreferrer'>
               <img 
                 src={playButton} 
                 alt="Play Button" 

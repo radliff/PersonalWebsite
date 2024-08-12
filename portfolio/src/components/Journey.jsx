@@ -8,7 +8,7 @@ import cmuLogo from '../img/cmuLogo.png'
 
 const Journey = () => {
   return (
-    <div className="bg-black px-40 -mt-40 flex flex-col min-h-screen">
+    <div className="bg-black px-40 mt-30 flex flex-col min-h-screen">
       <div className="flex flex-row items-start">
         <div
           className="relative max-w-lg rounded-2xl overflow-hidden shadow-lg bg-black p-6 grid grid-cols-2 grid-rows-2 gap-2"
@@ -18,16 +18,16 @@ const Journey = () => {
           }}
         >
           <div className="w-full h-full">
-            <img src={nsbeLogo} alt="Image 1" className="w-full h-full object-cover" />
+            <img src={nsbeLogo} alt="Image 1" className="w-full h-full object-cover transform transition-transform duration-200 hover:scale-105 hover:shadow-lg" />
           </div>
           <div className="w-full h-full">
-            <img src={ufLogo} alt="Image 2" className="w-full h-full object-cover" />
+            <img src={ufLogo} alt="Image 2" className="w-full h-full object-cover transform transition-transform duration-200 hover:scale-105 hover:shadow-lg" />
           </div>
           <div className="w-full h-full">
-            <img src={cmuLogo} alt="Image 3" className="w-full h-full object-cover" />
+            <img src={cmuLogo} alt="Image 3" className="w-full h-full object-cover transform transition-transform duration-200 hover:scale-105 hover:shadow-lg" />
           </div>
           <div className="w-full h-full">
-            <img src={ukgLogo} alt="Image 4" className="w-full h-full object-cover" />
+            <img src={ukgLogo} alt="Image 4" className="w-full h-full object-cover transform transition-transform duration-200 hover:scale-105 hover:shadow-lg" />
           </div>
         </div>
         <div className="ml-10">
