@@ -7,7 +7,7 @@ import personalWebsite from "../img/personalWebsite.png"
 
 const Projects = () => {
   return (
-    <div className='bg-black min-h-screen'>
+    <div className='bg-black min-h-screen mt-64'>
       <div className='w-full text-3xl font-bold text-white px-40 py-5 text-center'>
         <h1>Projects</h1>
       </div>
@@ -60,7 +60,7 @@ const Projects = () => {
           </div>
           <div className='text-center mt-4'>
             <h2 className='text-2xl font-bold text-white'>Minesweeper</h2>
-            <h3 className='text-lg text-slate-600 mt-2'>Artist: Radliff Jeantinor</h3> 
+            <h3 className='text-lg text-slate-400 mt-2'>Artist: Radliff Jeantinor</h3> 
           </div>
         </div>
 
@@ -86,7 +86,7 @@ const Projects = () => {
           </div>
           <div className='text-center mt-4'>
             <h2 className='text-2xl font-bold text-white'>PageRank</h2>
-            <h3 className='text-lg text-slate-600 mt-2'>Artist: Radliff Jeantinor</h3> 
+            <h3 className='text-lg text-slate-400 mt-2'>Artist: Radliff Jeantinor</h3> 
           </div>
         </div>
 

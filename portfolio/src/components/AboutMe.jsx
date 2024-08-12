@@ -1,22 +1,27 @@
 import React from 'react'
 import headshot from '../img/Headshot.jpg'
+import bannerPic from '../img/bannerPic.JPG'
+import bgPicRefined from '../img/bgpicRefined.jpg'
 
 const AboutMe = () => {
-    return (
-        <div className='w-full items-center bg-black py-16 px-4 flex justify-center'>
-          <div className='max-w-lg rounded-2xl overflow-hidden shadow-lg bg-black p-6 border-2 border-[#1DB954]'>
-            <h2 className='text-2xl font-bold mb-4 text-white flex justify-center'>About Me</h2>
-            <p className='text-white text-base'>
-            My name is Radliff Jeantinor, and I am a second-year student majoring in Mathematics and Computer Science at the University of Florida. I currently serve as the Academic Excellence Chair for the UF Chapter of NSBE.
-            My passion for computer science stems from a deep love of math and algorithms.  These studies, combined with my practical experience, have equipped me with a solid foundation to excel in the field of software engineering.
-            In my free time, I like to do crossword puzzles, and a word game is the best way to get my attention. I also love basketball (go Heat!) and anything to do with sports.
-            </p>
-          <div className="flex items-center justify-center mt-4"> 
-            <img src={headshot} className='text-white w-24 h-24 rounded-full' alt='Headshot of Radliff Jeantinor'/>
-          </div>
-        </div>
+  return (
+    <div className='w-full h-96 bg-cover bg-center relative' style={{ backgroundImage: `url(${bgPicRefined})`, backgroundPosition: 'left 39%' }}>
+      <div className='absolute inset-0 bg-black opacity-50'></div>
+      <div className='relative z-10 flex justify-left items-center h-full'>
+        <h1 className='text-white text-5xl font-bold text-lef px-20'>radliff :)</h1>
       </div>
-      )
-    }
+      <div className='absolute top-0 right-0 m-4 z-20 text-white font-bold text-lg'>
+      Hey there! I'm Radliff Jeantinor, a student at the University of Florida with a passion for all things tech. <br />
+      Welcome to my Spotify-themed corner of the web, where I mix my love for code with my favorite tunes. <br/>
+
+      Just like a good playlist, I believe a great website should be a blend of creativity, functionality, and personality. <br/> 
+      Here, you'll find a collection of my projects, and a glimpse into my journey as a Black engineer. <br/>
+
+      Thanks for stopping by—explore!
+
+      </div>
+    </div>
+  )
+}
 
 export default AboutMe
