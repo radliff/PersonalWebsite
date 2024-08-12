@@ -6,7 +6,7 @@ import verifiedBadge from '../img/verifiedBadge.png'
 
 const AboutMe = () => {
   return (
-    <div className='w-full h-96 bg-cover bg-center relative' style={{ backgroundImage: `url(${bgPicRefined})`, backgroundPosition: 'left 39%' }}>
+    <div className='w-full bg-cover bg-center relative' style={{ backgroundImage: `url(${bgPicRefined})`, backgroundPosition: 'left 39% bottom 60%', height: '32rem' }}>
       <div className='absolute inset-0 bg-black opacity-50'></div>
       <div className='relative z-10 flex justify-left items-center h-full'>
         <div className='relative px-10'>
@@ -14,12 +14,12 @@ const AboutMe = () => {
             src={verifiedBadge} 
             alt="Verified Badge" 
             className='absolute w-9 h-8' 
-            style={{ top: '-20px', left: '20px' }} 
+            style={{ top: '-20px', left: '30px' }} 
           />
-          <h2 className='text-white text-md px-5' style={{ transform: 'translateY(-15px)' }}>
+          <h2 className='text-white text-md px-7' style={{ transform: 'translateY(-15px)' }}>
             Verified Artist
           </h2>
-          <h1 className='text-white text-5xl font-bold text-left'>radliff :)</h1>
+          <h1 className='text-white text-5xl font-bold text-left'>Radliff :)</h1>
         </div>
       </div>
       <div className='absolute top-0 right-10 m-4 z-20 text-white font-bold text-xl max-w-md p-4 bg-opacity-75 bg-black'>
