@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/PersonalWebsite/static/css/main.a3f2e530.css",
-    "main.js": "/PersonalWebsite/static/js/main.255fb2b8.js",
-    "static/media/Headshot.jpg": "/PersonalWebsite/static/media/Headshot.1ecf2402d6930dac0d98.jpg",
-    "static/media/bgpicRefined.jpg": "/PersonalWebsite/static/media/bgpicRefined.36edea265141c3ece78b.jpg",
-    "static/media/cmuLogo.png": "/PersonalWebsite/static/media/cmuLogo.4a22383fcb313738fd63.png",
-    "static/media/pageRank.png": "/PersonalWebsite/static/media/pageRank.77a3066d7d1dff4a9a94.png",
-    "static/media/bannerPic.JPG": "/PersonalWebsite/static/media/bannerPic.00cd78660ac1cb1a99ac.JPG",
-    "static/media/verifiedBadge.png": "/PersonalWebsite/static/media/verifiedBadge.848b2d3b99b93f6df735.png",
-    "static/media/PPCHSlogo.png": "/PersonalWebsite/static/media/PPCHSlogo.f69a185eb419d3d5a241.png",
-    "static/media/UFLogo.png": "/PersonalWebsite/static/media/UFLogo.5cf1442eba599582fade.png",
-    "static/media/minesweeperFlag.png": "/PersonalWebsite/static/media/minesweeperFlag.80be9551d701b993cc6b.png",
-    "static/media/personalWebsite.png": "/PersonalWebsite/static/media/personalWebsite.c8335328d0ae314410a6.png",
-    "static/media/ukgLogo.png": "/PersonalWebsite/static/media/ukgLogo.699e5a8a35c875968f80.png",
-    "static/media/playButton.png": "/PersonalWebsite/static/media/playButton.dea3a9ef3850a8f56257.png",
-    "index.html": "/PersonalWebsite/index.html",
-    "main.a3f2e530.css.map": "/PersonalWebsite/static/css/main.a3f2e530.css.map",
-    "main.255fb2b8.js.map": "/PersonalWebsite/static/js/main.255fb2b8.js.map"
+    "main.css": "/static/css/main.a3f2e530.css",
+    "main.js": "/static/js/main.e7bacb6d.js",
+    "static/media/Headshot.jpg": "/static/media/Headshot.1ecf2402d6930dac0d98.jpg",
+    "static/media/bgpicRefined.jpg": "/static/media/bgpicRefined.36edea265141c3ece78b.jpg",
+    "static/media/cmuLogo.png": "/static/media/cmuLogo.4a22383fcb313738fd63.png",
+    "static/media/pageRank.png": "/static/media/pageRank.77a3066d7d1dff4a9a94.png",
+    "static/media/bannerPic.JPG": "/static/media/bannerPic.00cd78660ac1cb1a99ac.JPG",
+    "static/media/verifiedBadge.png": "/static/media/verifiedBadge.848b2d3b99b93f6df735.png",
+    "static/media/PPCHSlogo.png": "/static/media/PPCHSlogo.f69a185eb419d3d5a241.png",
+    "static/media/UFLogo.png": "/static/media/UFLogo.5cf1442eba599582fade.png",
+    "static/media/minesweeperFlag.png": "/static/media/minesweeperFlag.80be9551d701b993cc6b.png",
+    "static/media/personalWebsite.png": "/static/media/personalWebsite.c8335328d0ae314410a6.png",
+    "static/media/ukgLogo.png": "/static/media/ukgLogo.699e5a8a35c875968f80.png",
+    "static/media/playButton.png": "/static/media/playButton.dea3a9ef3850a8f56257.png",
+    "index.html": "/index.html",
+    "main.a3f2e530.css.map": "/static/css/main.a3f2e530.css.map",
+    "main.e7bacb6d.js.map": "/static/js/main.e7bacb6d.js.map"
   },
   "entrypoints": [
     "static/css/main.a3f2e530.css",
-    "static/js/main.255fb2b8.js"
+    "static/js/main.e7bacb6d.js"
   ]
 }
