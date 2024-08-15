@@ -3,10 +3,11 @@ import headshot from '../img/Headshot.jpg'
 import bannerPic from '../img/bannerPic.JPG'
 import bgPicRefined from '../img/bgpicRefined.jpg'
 import verifiedBadge from '../img/verifiedBadge.png'
+import smilingPic from '../img/smilingPic.jpg'
 
 const AboutMe = () => {
   return (
-    <div className='w-full bg-cover bg-center relative' style={{ backgroundImage: `url(${bgPicRefined})`, backgroundPosition: 'left 40%', height: '32rem' }}>
+    <div className='w-full bg-cover bg-center relative' style={{ backgroundImage: `url(${smilingPic})`, backgroundPosition: 'left 40% top 30%', height: '60vh' }}>
       <div className='absolute inset-0 bg-black opacity-50'></div>
       <div className='relative z-10 flex justify-left items-center h-full'>
         <div className='relative px-10'>
