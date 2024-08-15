@@ -15,3 +15,5 @@ This is my personal portfolio website, designed with a Spotify-inspired theme to
 - **Project Showcase**: Detailed descriptions of the projects I've worked on, including code snippets and live demos.
 - **Interactive Elements**: Smooth transitions, hover effects, and dynamic content.
 - **Contact via LinkedIn**: Visitors can connect with me through my [LinkedIn profile](https://www.linkedin.com/in/your-profile).
+
+> **Note**: This website is currently optimized for desktop viewing. Mobile optimization is planned for future updates.
