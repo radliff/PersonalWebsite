@@ -7,8 +7,8 @@ import smilingPic from '../img/smilingPic.jpg'
 
 const AboutMe = () => {
   return (
-    <div className='w-full bg-cover bg-center relative h-60 md:h-70 lg:h-96' 
-         style={{ backgroundImage: `url(${smilingPic})`, backgroundPosition: 'left 40% top 30%' }}>
+    <div className='sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-2xl mx-auto bg-cover bg-center relative h-60 md:h-70 lg:h-96 overflow-clip' 
+         style={{ backgroundImage: `url(${smilingPic})`, backgroundPosition: 'left 40% top 30%' , height:'50vh'}}>
       <div className='absolute inset-0 bg-black opacity-50'></div>
       <div className='relative z-10 flex justify-left items-center h-full'>
         <div className='relative px-5 sm:px-10'>

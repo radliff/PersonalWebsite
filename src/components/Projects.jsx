@@ -13,7 +13,7 @@ const Projects = () => {
       <div className='w-full text-3xl font-bold text-white px-40 py-5 text-center'>
         <h1>Projects</h1>
       </div>
-      <div className='w-full items-start py-5 px-40 flex flex-row justify-left'>
+      <div className='w-full items-start py-5 flex mx-auto' >
         {/* Personal Website Card */}
         <div className='flex flex-col items-center'>
           <div className='relative max-w-lg rounded-2xl overflow-hidden shadow-lg bg-black p-6 group'
