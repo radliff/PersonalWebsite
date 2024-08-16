@@ -10,10 +10,10 @@ import { SiApachekafka, SiTailwindcss, SiNodedotjs, SiFlask, SiCplusplus } from 
 const Projects = () => {
   return (
     <div className='bg-black min-h-screen mt-64'>
-      <div className='w-full text-3xl font-bold text-white px-40 py-5 text-center'>
+      <div className='w-full text-3xl font-bold text-white text-center flex justify-center my-auto'>
         <h1>Projects</h1>
       </div>
-      <div className='w-full items-start py-5 flex mx-auto' >
+      <div className='w-full items-start flex mx-auto lg:py-5 px-10 xl:py-10 px-40' >
         {/* Personal Website Card */}
         <div className='flex flex-col items-center'>
           <div className='relative max-w-lg rounded-2xl overflow-hidden shadow-lg bg-black p-6 group'

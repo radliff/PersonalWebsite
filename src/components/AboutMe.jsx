@@ -1,7 +1,4 @@
 import React from 'react'
-import headshot from '../img/Headshot.jpg'
-import bannerPic from '../img/bannerPic.JPG'
-import bgPicRefined from '../img/bgpicRefined.jpg'
 import verifiedBadge from '../img/verifiedBadge.png'
 import smilingPic from '../img/smilingPic.jpg'
 
@@ -18,7 +15,7 @@ const AboutMe = () => {
             className='absolute w-7 h-6 sm:w-9 sm:h-8' 
             style={{ top: '-15px', left: '20px' }} 
           />
-          <h2 className='text-white text-sm sm:text-md px-7 transform -translate-y-3 sm:-translate-y-4'>
+          <h2 className='text-white text-sm sm:text-md px-7 transform -translate-y-5 sm:-translate-y-4 lg:-translate-y-2'>
             Verified Artist
           </h2>
           <h1 className='text-white text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold text-left'>
