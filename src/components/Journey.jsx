@@ -52,7 +52,7 @@ const Journey = () => {
         <div className="grid grid-cols-2 sm:grid-cols-5 text-lg text-slate-400 mt-5 gap-x-4 sm:gap-x-8 items-center transform transition-transform duration-200 hover:scale-105 hover:shadow-lg">
           <span className='hidden sm:block'>1</span>
           <div className="flex items-center col-span-2 sm:col-span-1">
-            <img src={nsbeLogo} alt="NSBE Logo" className="w-16 h-16 sm:w-20 sm:h-20 object-cover mr-4" />
+            <img src={nsbeLogo} alt="NSBE Logo" className="w-16 h-16 sm:w-1/4 sm:h-auto object-cover mr-4" />
             <div>
               <span className="text-white font-bold">NSBE</span>
               <div className="text-lg text-slate-400 mt-2">Academic Excellence Chair</div>
@@ -65,7 +65,7 @@ const Journey = () => {
         <div className="grid grid-cols-2 sm:grid-cols-5 text-lg text-slate-400 mt-5 gap-x-8 items-center transform transition-transform duration-200 hover:scale-105 hover:shadow-lg">
           <span className='hidden sm:block'>2</span>
           <div className="flex items-center col-span-2 sm:col-span-1">
-            <img src={ufLogo} alt="UF Logo" className="w-16 h-16 object-cover mr-10" />
+            <img src={ufLogo} alt="UF Logo" className="w-16 h-16 sm:w-1/4 sm:h-auto object-cover mr-10" />
             <div>
               <span className="text-white font-bold">University of Florida</span>
               <div className="text-lg text-slate-400 mt-2">Student</div>
@@ -78,7 +78,7 @@ const Journey = () => {
         <div className="grid grid-cols-5 text-lg text-slate-400 mt-5 gap-x-8 items-center transform transition-transform duration-200 hover:scale-105 hover:shadow-lg">
           <span className='hidden sm:block'>3</span>
           <div className="flex items-center">
-            <img src={cmuLogo} alt="CMU logo" className="w-16 h-16 object-cover mr-5" />
+          <img src={cmuLogo} alt="CMU logo" className="w-24 h-auto sm:w-1/4 object-cover mr-5" />
             <div>
               <span className="text-white font-bold">Carnegie Mellon</span>
               <div className="text-lg text-slate-400 mt-2 text-left whitespace-nowrap">Summer Research Intern</div>
@@ -91,15 +91,15 @@ const Journey = () => {
         <div className="grid grid-cols-5 text-lg text-slate-400 mt-5 gap-x-8 items-center transform transition-transform duration-200 hover:scale-105 hover:shadow-lg">
           <span className='hidden sm:block'>4</span>
           <div className="flex items-center">
-            <img src={ukgLogo} alt="UKG logo" className="w-20 h-20 object-cover mr-4" />
+            <img src={ukgLogo} alt="UKG logo" className="w-24 h-auto sm:w-1/4 object-cover mr-4" />
             <div>
               <span className="text-white font-bold">UKG</span>
-              <div className="text-left whitespace-nowrap text-slate-400 mt-2">Software Engineering Intern</div>
+              <div className="text-left whitespace-nowrap text-slate-400 mt-2">Software Engineering intern</div>
             </div>
           </div>
           <div className="text-center hidden sm:block">MongoDB, Kafka, Springboot, Ansible, Java</div>
           <div className="text-center hidden sm:block">May 20, 2024</div>
-          <div className="text-center hidden sm:block">August 16th, 2024</div>
+          <div className="text-center hidden sm:block">August 17th, 2024</div>
         </div>
       </div>
     </div>
