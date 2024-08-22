@@ -4,8 +4,8 @@ import playButton from '../img/playButton.png'
 import spotifyLogo from '../img/spotifyLogo.png'
 import pageRank from '../img/pageRank.png'
 import personalWebsite from "../img/personalWebsite.png"
-import { DiJava, DiMongodb, DiReact, DiPostman, DiPython } from 'react-icons/di';
-import { SiApachekafka, SiTailwindcss, SiNodedotjs, SiFlask, SiCplusplus } from 'react-icons/si';
+import {  DiReact, DiPython } from 'react-icons/di';
+import {  SiTailwindcss, SiNodedotjs, SiFlask, SiCplusplus } from 'react-icons/si';
 
 const Projects = () => {
   return (

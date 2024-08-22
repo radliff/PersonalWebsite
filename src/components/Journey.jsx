@@ -1,7 +1,6 @@
 import React from 'react'
 import ufLogo from '../img/UFLogo.png'
 import nsbeLogo from '../img/nsbeLogo.png'
-import ppchsLogo from '../img/PPCHSlogo.png'
 import ukgLogo from '../img/ukgLogo.png'
 import cmuLogo from '../img/cmuLogo.png'
 
@@ -19,16 +18,16 @@ const Journey = () => {
           }}
         >
           <div className="w-full h-full">
-            <img src={nsbeLogo} alt="Image 1" className="w-full h-full object-cover transform transition-transform duration-200 hover:scale-105 hover:shadow-lg" />
+            <img src={nsbeLogo} alt="NSBE Logo" className="w-full h-full object-cover transform transition-transform duration-200 hover:scale-105 hover:shadow-lg" />
           </div>
           <div className="w-full h-full">
-            <img src={ufLogo} alt="Image 2" className="w-full h-full object-cover transform transition-transform duration-200 hover:scale-105 hover:shadow-lg" />
+            <img src={ufLogo} alt="UF Logo" className="w-full h-full object-cover transform transition-transform duration-200 hover:scale-105 hover:shadow-lg" />
           </div>
           <div className="w-full h-full">
-            <img src={cmuLogo} alt="Image 3" className="w-full h-full object-cover transform transition-transform duration-200 hover:scale-105 hover:shadow-lg" />
+            <img src={cmuLogo} alt="CMU logo" className="w-full h-full object-cover transform transition-transform duration-200 hover:scale-105 hover:shadow-lg" />
           </div>
           <div className="w-full h-full">
-            <img src={ukgLogo} alt="Image 4" className="w-full h-full object-cover transform transition-transform duration-200 hover:scale-105 hover:shadow-lg" />
+            <img src={ukgLogo} alt="UKG logo" className="w-full h-full object-cover transform transition-transform duration-200 hover:scale-105 hover:shadow-lg" />
           </div>
         </div>
         <div className="mt-10 md:ml-10 md:mt-0 text-center md:text-left">

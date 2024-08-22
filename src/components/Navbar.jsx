@@ -1,12 +1,6 @@
 import { FaDownload, FaGithub, FaLinkedin } from 'react-icons/fa';
-import { useState } from 'react';
 
 const Navbar = () => {
-    const [nav, setNav] = useState(false);
-
-    const handleNav = () => {
-        setNav(!nav);
-    };
 
     return (
         <div className='flex flex-col md:flex-row justify-between items-center h-auto md:h-24 max-w-[1240px] mx-auto px-4 sm:px-6 md:px-8 text-white'>
